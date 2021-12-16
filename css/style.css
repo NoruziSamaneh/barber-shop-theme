@@ -130,3 +130,47 @@
   padding: 0 12px;
 }
 /* end slider section */
+
+/* start welcome section style */
+#welcome .container-md {
+  max-width: 1100px;
+}
+
+.welcome-pic img {
+  width: 370px;
+  height: 490px;
+  object-fit: cover;
+  margin-top: 130px;
+}
+
+.title-welcome-sec {
+  margin-top: 100px;
+}
+
+.title-welcome-sec h2 {
+  font-weight: bold;
+}
+
+.text-welcome-sec {
+  text-align: justify;
+}
+
+.text-welcome-sec h6 {
+  font-weight: bold;
+}
+
+.text-welcome-sec button {
+  background-color: #a97140;
+  color: white;
+  display: block;
+  margin-top: 2.4rem;
+}
+
+.text-welcome-sec button:hover {
+  color: white;
+}
+
+.text-welcome-sec button:focus {
+  box-shadow: unset;
+}
+/* end welcome section style */
