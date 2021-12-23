@@ -9,7 +9,7 @@ $(document).ready(() => {
       rtl: true,
       autoplay: true,
       autoplayspeed: 2000,
-      // prevArrow: '<div class="slick-prev"><i class="fas fa-angle-left" aria-hidden="true"></i></div>',
-      // nextArrow: '<div class="slick-next"><i class="fas fa-angle-right" aria-hidden="true"></i></div>'
+      prevArrow: '<div class="container-md"><i class="fas fa-angle-left leftarrow arrow" aria-hidden="true"></i></div>',
+      nextArrow: '<div class="container-md"><i class="fas fa-angle-right arrow" aria-hidden="true"></i></div>'
   });
 });
