@@ -75,7 +75,7 @@
 }
 /* end navbar style */
 
-/* start slider section */
+/* start slider section style */
 .slider-items img {
   object-fit: cover;
   width: 100%;
@@ -159,7 +159,7 @@
     top: 65%;
   }
 }
-/* end slider section */
+/* end slider section style */
 
 /* start welcome section style */
 .title-welcome-sec {
@@ -252,3 +252,59 @@
   margin-bottom: 50px;
 }
 /* end opening hours section style */
+
+/* start the services section style */
+.services-title h2 {
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+.services-title img {
+  margin-bottom: 15px;
+}
+
+.services-content {
+  margin-bottom: 50px;
+}
+
+.services-content .card {
+  border: unset;
+}
+
+.services-content .card-body {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: justify;
+}
+
+.services-content h4 {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.border-line {
+  border: 2px solid white;
+}
+
+.price {
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: #a97140;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%,-50%);
+}
+
+.price span {
+  padding: 10px;
+}
+
+@media (max-width:426px) {
+  .main-card-services {
+    margin-bottom: 1rem;
+  }
+}
+/* end the services section style */
