@@ -128,7 +128,7 @@
   border-color: #a97140;
 }
 
- @media (max-width:426px) {
+ @media (max-width:425px) {
   .slider-items-content {
     top: -15%;
   }
@@ -150,7 +150,17 @@
   }
 }
 
-@media (min-width:768px) and (max-width:1025px) {
+@media (min-width:425px) and (max-width:768px) {
+  .arrow {
+    top: 70%;
+  }
+
+  .slider-items-content {
+    top: -20%;
+  }
+}
+
+@media (min-width:768px) and (max-width:1440px) {
   .slider-items-content {
     top: 5%;
   }
@@ -302,9 +312,46 @@
   padding: 10px;
 }
 
-@media (max-width:426px) {
+@media (max-width:768px) {
   .main-card-services {
     margin-bottom: 1rem;
   }
 }
 /* end the services section style */
+
+/* start popular section style */
+.popular-title-sec h2 {
+  margin-top: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+.popular-title-sec img {
+  margin-bottom: 15px;
+}
+
+.popular-content img {
+  width: 100%;
+  border: 1px solid #545454;
+}
+
+.popular-text {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+#popular {
+  background-image: url("../images/popular-models.jpg");
+  z-index: 0;
+  background-size: cover;
+  background-position-x: center;
+}
+
+@media (max-width:768px) {
+  .popular-content {
+    margin-bottom: 1rem;
+  }
+}
+/* end popular section style */
