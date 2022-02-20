@@ -28,3 +28,17 @@ $(document).ready(() => {
       nextArrow: '<div class="container-md"><i class="fas fa-angle-right barbers-arrow right-barbers-arrow" aria-hidden="true"></i></div>'
   });
 });
+
+$(document).ready(() => {
+  $("#customers-slider").slick({
+      arrows: false,
+      dots: false,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: "linear",
+      rtl: true,
+      autoplay: true,
+      autoplayspeed: 2000,
+  });
+});
