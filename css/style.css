@@ -519,4 +519,10 @@
 #customers-slider {
   padding-bottom: 60px;
 }
+
+@media (max-width:425px) {
+  .customers-items p {
+    text-align: justify;
+  }
+}
 /* end happy customers section */
