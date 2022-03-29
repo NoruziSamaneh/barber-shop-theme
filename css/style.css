@@ -625,3 +625,18 @@
   }
 }
 /* end the blog section */
+
+/* start brands section */
+.brand-title h2 {
+  margin-top: 60px;
+  font-weight: bold;
+}
+
+.brand-title img {
+  margin-bottom: 15px;
+}
+
+.main-content-brand {
+  margin-bottom: 60px;
+}
+/* end brands section */
