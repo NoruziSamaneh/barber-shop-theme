@@ -640,3 +640,62 @@
   margin-bottom: 60px;
 }
 /* end brands section */
+
+/* start footer section */
+#footer {
+  background-image: url(../images/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+#footer::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+  z-index: -1;
+  opacity: .4;
+  background-color: black;
+}
+
+.footer-logo img {
+  margin: 0 auto;
+  display: block;
+  padding-top: 60px;
+}
+
+.footer-information h6 {
+  color: #cccccc;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer-information h4 {
+  text-align: center;
+  color: #a97140;
+  font-weight: bold;
+}
+
+.social-items i {
+  padding-left: 1rem;
+  margin-bottom: 60px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.copyright-sec {
+  background-color: #222222;
+}
+
+.copyright-sec p {
+  color: #999999;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+/* end footer section */
